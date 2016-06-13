@@ -8,13 +8,5 @@
 
 @section('content')
     <p>This is my body content.</p>
-
-    @verbatim
-        asd
-        @test
-        @foreach(array('qwe') as $a)
-            {{ $a }}
-        @endforeach
-    @endverbatim
     
 @stop
